@@ -1,0 +1,54 @@
+body {
+  background-color: #ddd;
+}
+
+#box.blue {
+  background-color: blue;
+}
+
+#sample {
+  width: 80%;
+  height: 25px;
+  line-height: 23px;
+  border-radius: 4px;
+  padding-left: 8px;
+  border: 1px solid lightgrey;
+}
+
+
+#box { 
+  width: 400px;
+  height: 400px; 
+  background-color: red;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(0,1.21,.67,-0.18) ;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  padding: 3px;
+  border: 1px solid pink;
+}
+
+#box h3 {
+  color: white;
+  text-align: center;
+}
+
+#modal {
+  padding: 3%;
+  width: 33%;
+  height: 33%;
+  position: absolute;
+  top: 33%;
+  left: 25%; 
+  background-color: white;
+  border: 1px solid grey; 
+  /* display: none; */
+  z-index: 10;
+}
+
+#modal.wider {
+  padding: 10%;
+  width: 50%;
+  height: 10%;
+}
